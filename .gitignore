@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and large binaries
+data/vision_samples/*
+data/audio_samples/*
+!data/vision_samples/.gitkeep
+!data/audio_samples/.gitkeep
+
+# Experimental outputs
+outputs/plots/*
+outputs/metrics/*
+!outputs/plots/.gitkeep
+!outputs/metrics/.gitkeep
+
+# IDE configurations
+.vscode/
+.idea/

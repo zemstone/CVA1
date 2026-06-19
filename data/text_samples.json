@@ -1,0 +1,22 @@
+{
+  "samples": [
+    {
+      "type": "factual_knowledge",
+      "prompt": "The capital city of France is",
+      "clean_target": " Paris",
+      "corrupted_target": " London"
+    },
+    {
+      "type": "grammatical_agreement",
+      "prompt": "The keys to the cabinet are",
+      "clean_target": " on",
+      "corrupted_target": " is"
+    },
+    {
+      "type": "indirect_object_identification",
+      "prompt": "When John and Mary went to the store, John gave the bag to",
+      "clean_target": " Mary",
+      "corrupted_target": " John"
+    }
+  ]
+}

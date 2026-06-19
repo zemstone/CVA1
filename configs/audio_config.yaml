@@ -1,0 +1,8 @@
+model:
+  model_name: "openai/whisper-base"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+
+experiment:
+  batch_size: 1
+  sampling_rate: 16000
